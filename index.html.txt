@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krista Sotero - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Krista Sotero</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="ethics.html">Ethics & Attribution</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>A glimpse into my goals, background, and skills in web development.</p>
+    </div>
+
+    <div class="container">
+        <section>
+            <h2>Overview & Profile</h2>
+            <h3>Mission Statement</h3>
+            <p>The goal of this website is to serve as a platform to showcase my web development skills while promoting a safe, ethical, and accessible digital experience for internet users.</p>
+            
+            <h3>About Me</h3>
+            <p>I’m Krista Mae, an IT student eager to explore and learn. I’m constantly discovering new skills, growing in technology, and excited to build what I can do.</p>
+            
+            <h3>Skills</h3>
+            <ul>
+                <li><strong>HTML5 & CSS3:</strong> Structuring clean and responsive web layouts using modern styling.</li>
+                <li><strong>Basic JavaScript:</strong> Adding interactivity to web pages.</li>
+                <li><strong>Web Safety & Ethics:</strong> Understanding proper media licensing, enforcing HTTPS, and respecting user privacy.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2026 Krista Sotero. All rights reserved.
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krista Sotero - Ethics & Attribution</title>
+    <style>
+        :root {
+            --primary-pink: #f8d7da;
+            --accent-pink: #f2a6b2;
+            --dark-text: #4a2c2a;
+            --white: #ffffff;
+        }
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--primary-pink);
+            color: var(--dark-text);
+        }
+        header {
+            background-color: var(--white);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--accent-pink);
+        }
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: var(--dark-text);
+            font-weight: 500;
+        }
+        nav a:hover {
+            color: var(--accent-pink);
+        }
+        .hero {
+            background-color: var(--accent-pink);
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: var(--white);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-bottom: 2px solid var(--primary-pink);
+            padding-bottom: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--accent-pink);
+            font-size: 14px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Krista Sotero</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="ethics.html">Ethics & Attribution</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Ethics & Attribution</h1>
+        <p>Asset sources and privacy statements.</p>
+    </div>
+
+    <div class="container">
+        <section>
+            <h2>Sources and Licenses</h2>
+            <p>This website uses the following open-source and free materials:</p>
+            <ul>
+                <li><strong>Fonts:</strong> Used Google Fonts (Segoe UI / Sans-serif) under its respective guidelines and licenses.</li>
+                <li><strong>Icons & Media:</strong> No external third-party media or images were used; the design relies purely on CSS styling and colors.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Privacy Statement</h2>
+            <p>We value your privacy. This website is a personal portfolio and <strong>does not collect any personal data</strong>, uses no user tracking, and installs no cookies for visitors.</p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2026 Krista Sotero. All rights reserved.
+    </footer>
+
+</body>
+</html>
